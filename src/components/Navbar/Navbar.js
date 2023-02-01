@@ -10,7 +10,7 @@ const Navbar = () => {
        <Item>Products</Item>
      </Menu>
      <Menu>
-     <Item>Log In</Item>
+     
        <Item>Cart</Item>
        
      </Menu>
