@@ -1,13 +1,15 @@
 import React from 'react'
-import { Nav ,Logo,Menu,Item } from '../../styles/Navbar.styled';
+import { Nav ,Logo,Menu,Item,NavbarLink} from '../../styles/Navbar.styled';
+
 
 const Navbar = () => {
   return (
    <Nav>
      <Logo>Trends</Logo>
      <Menu>
-       <Item>Home</Item>
-       <Item>Products</Item>
+       <NavbarLink to="/"><Item>Home</Item></NavbarLink>
+       <NavbarLink to="/products"><Item>Products</Item></NavbarLink>
+       
      </Menu>
      <Menu>
      
