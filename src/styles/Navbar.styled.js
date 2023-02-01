@@ -1,4 +1,5 @@
 import  styled  from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Nav=styled.div`
 display:flex;
@@ -25,5 +26,20 @@ export const Item=styled.li`
 margin:5px;
 font-weight:500;
 font-size:18px;
+cursor:pointer;
 `;
 
+export const NavbarLink = styled(NavLink)`
+ color:#444;
+ 
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+ 
+&:hover,
+&:focus{
+    color:#3AAFA9;
+}
+&:active{
+    color: #444;
+};
+`;
