@@ -16,7 +16,6 @@ export const ProductItems=styled.div`
 width:30vw;
 height:100vh;
 margin:2rem;
-background:red;
 `;
 
 export const ProductPic=styled.div`
